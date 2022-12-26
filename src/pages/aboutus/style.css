@@ -1,0 +1,15 @@
+.aboutus {
+    max-width: 700px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.first-text {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.for-br {
+    display: block;
+}

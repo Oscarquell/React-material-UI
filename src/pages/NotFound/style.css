@@ -1,0 +1,6 @@
+.not-found {
+    margin: 0 auto;
+    max-width: 700px;
+    height: 500px;
+    background: url("./not-found.jpg") center center/cover no-repeat;
+}

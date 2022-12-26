@@ -5,17 +5,15 @@ import HomePage from "./pages/homepage";
 import Index from "./pages/aboutus";
 import SignInPage from "./pages/signin";
 import NotFoundPage from "./pages/NotFound";
+import ResponsiveAppBar from "./components/header";
+
 
 
 const App = () => {
     return (
         <div>
             <header>
-                <div className="container">
-                    <div className="lnk-btn"><Link className="link-btn" to='/'>Home</Link></div>
-                    <div className="lnk-btn"><Link className="link-btn" to='/about'>About Us</Link></div>
-                    <div className="lnk-btn"><Link className="link-btn" to='/signin'>Sign In</Link></div>
-                </div>
+                <ResponsiveAppBar />
             </header>
             <main>
                 <Switch>

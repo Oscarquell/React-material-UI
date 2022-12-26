@@ -1,6 +1,5 @@
 .not-found {
-    margin: 0 auto;
+    padding-top: 25px;
     max-width: 700px;
-    height: 500px;
-    background: url("./not-found.jpg") center center/cover no-repeat;
+    margin: 0 auto;
 }
